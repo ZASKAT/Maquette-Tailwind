@@ -1,0 +1,25 @@
+/*
+Importe tout tailwindcss et les plugins de base
+*/  
+
+@import "tailwindcss";
+
+/*
+Le theme
+Chaque variable crée automatiquement les classes
+
+    --color-marque: Boutons, liens, focus
+    --color-marque-fonce: Nom, prix, survol
+    --font-titre: Titres
+*/
+@theme {
+    --color-marque: #B83B5E;
+    --color-marque-fonce: #7A2840;
+    --color-atelier: #4E6650;
+    --color-hero: #FBF6F0;
+    --color-atouts: #F6E3E3;
+    --color-texte: #2B2024;
+    --color-white: #FFFFFF;
+    --font-titre: "Playfair Display", serif;
+    --font-texte: "Inter", sans-serif;
+}
